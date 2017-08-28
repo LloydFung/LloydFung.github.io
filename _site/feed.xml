@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vno Jekyll</title>
-    <description>Vno Jekyll is a port of my Ghost theme vno.</description>
+    <title>Lloyd's Kōdo Sekai</title>
+    <description>description</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Aug 2017 16:37:05 +0800</pubDate>
-    <lastBuildDate>Fri, 25 Aug 2017 16:37:05 +0800</lastBuildDate>
+    <pubDate>Mon, 28 Aug 2017 16:35:59 +0800</pubDate>
+    <lastBuildDate>Mon, 28 Aug 2017 16:35:59 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>

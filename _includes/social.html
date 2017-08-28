@@ -1,28 +1,48 @@
 <nav class="cover-navigation navigation--social">
   <ul class="navigation">
 
-  {% if site.social.weibo %}
-  <!-- Weibo -->
+  <!-- Facebook -->
+  {% if site.social.facebook %}
   <li class="navigation__item">
-    <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
-      <i class='social fa fa-weibo'></i>
-      <span class="label">Weibo</span>
+    <a href="https://www.facebook.com/{{site.social.facebook}}" title="Facebook" target="_blank">
+      <i class='social fa fa-facebook-square'></i>
+      <span class="label">Facebook</span>
     </a>
   </li>
   {% endif %}
 
-  {% if site.social.github %}
-  <!-- Github -->
+  <!-- LinkedIn -->
+  {% if site.social.linkedin %}
   <li class="navigation__item">
+    <a href="https://www.linkedin.com/in/{{site.social.linkedin}}/" title="LinkedIn" target="_blank">
+      <i class='social fa fa-linkedin-square'></i>
+      <span class="label">LinkedIn</span>
+    </a>
+  </li>
+  {% endif %}
+
+  <!-- Github -->
+  {% if site.social.github %}
+ <li class="navigation__item">
     <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}} 的 Github" target="_blank">
       <i class='social fa fa-github'></i>
       <span class="label">Github</span>
     </a>
   </li>
   {% endif %}
+
+  <!-- Weibo -->
+  {% if site.social.weibo %}
+  <li class="navigation__item">
+    <a href="http://weibo.com/{{site.social.weibo}}" title="Weibo" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
+    </a>
+  </li>
+  {% endif %}
   
-  {% if site.social.twitter %}
   <!-- Twitter -->
+  {% if site.social.twitter %}
   <li class="navigation__item">
     <a href="http://twitter.com/{{site.social.twitter}}" title="@{{site.social.twitter}}" target="_blank">
       <i class='social fa fa-twitter'></i>
@@ -31,8 +51,8 @@
   </li>
   {% endif %}
 
+  <!-- Google+ -->
   {% if site.social.gplus %}
-  <!-- Google Plus -->
   <li class="navigation__item">
     <a href="https://plus.google.com/{{site.social.gplus}}" rel="author" title="Google+" target="_blank">
       <i class='social fa fa-google-plus-square'></i>
@@ -49,8 +69,8 @@
     </a>
   </li>
 
+  <!-- Mail to -->
   {% if site.social.mail %}
-  <!-- Email -->
   <li class="navigation__item">
     <a href="mailto:{{site.social.mail}}" title="Contact me">
       <i class='social fa fa-envelope'></i>

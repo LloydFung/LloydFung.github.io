@@ -1,11 +1,12 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
+title: Lloyd's Kōdo Sekai
+subtitle: subtitle
+welcome_message: welcome_message
+description: description
 creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://vno.onevcat.com"
+url: ""
+post_img: "/assets/images/"
 
 permalink: /:year/:month/:title/
 
@@ -13,7 +14,7 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
+cover_color: 
 
 # The blog button should not be removed.
 blog_button:
@@ -32,16 +33,18 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
+    disqus: lloydscodeworld
     # duoshuo: 
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    facebook: lloyd.fung.180
+    # weibo: onevcat
+    github: LloydFung
+    # twitter: onevcat
+    gplus: 116499878994678505080
+    mail: lloydfung@centamail.com
+    linkedin: lloyd-fung-13a8b311a
 
 # Google Analytics
 ga:
