@@ -5,8 +5,11 @@ welcome_message: no welcome_message
 description: no description
 creator: <a href="http://onev.cat">@onevcat</a>
 
-url: ""
-post_img: "/assets/images/"
+# url: ""
+avatar_img: "/assets/images/avatar.jpg"
+background_cover: "/assets/images/background-cover.jpg"
+
+post_img_dir: "/assets/images/post/"
 
 permalink: /blog/:year/:month/:day/:title.html
 
@@ -26,8 +29,13 @@ nav:
     - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
+
+# Plugins
+plugins:
+    - jekyll-seo-tag
+
 # Pagination
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-seo-tag]
 paginate: 10
 paginate_path: "page/:num/"
 
@@ -50,7 +58,3 @@ social:
 ga:
     # id: your_ga_id
     # host: your_host
-
-plugins_dir:
-    # SEO
-  - jekyll-seo-tag
