@@ -1,14 +1,14 @@
 # Basic
 title: Lloyd's Kōdo Sekai
-subtitle: subtitle
-welcome_message: welcome_message
-description: description
+subtitle: no subtitle
+welcome_message: no welcome_message
+description: no description
 creator: <a href="http://onev.cat">@onevcat</a>
 
 url: ""
 post_img: "/assets/images/"
 
-permalink: /:year/:month/:title/
+permalink: /blog/:year/:month/:day/:title.html
 
 # Format
 highlighter: rouge
@@ -50,3 +50,7 @@ social:
 ga:
     # id: your_ga_id
     # host: your_host
+
+plugins_dir:
+    # SEO
+  - jekyll-seo-tag
